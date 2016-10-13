@@ -7,7 +7,7 @@ pull:
 	git clone https://github.com/sha2017/server.haproxy.git
 	git clone https://github.com/sha2017/server.ldap.git
 	git clone https://github.com/sha2017/server.ldap.login.git
-	git clone https://github.com/sha2017/server.ntp.git
+	git clone https://github.com/sha2017/client.ntp.git
 
 
 update:
@@ -22,4 +22,4 @@ clean:
 	rm -rf server.haproxy
 	rm -rf server.ldap
 	rm -rf server.ldap.login
-	rm -rf server.ntp
+	rm -rf client.ntp
